@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Banner from '../components/banner/banner'
 
 import styles from '../styles/Home.module.css'
 
@@ -11,6 +12,13 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <h1>Netflix</h1>
+      <Banner
+        title='Clifford the red dog'
+        subTitle='a very cute dog'
+        imgUrl='/static/clifford.webp'
+      />
+      {/* <NavBar />
+      <Card /> */}
     </div>
   )
 }
